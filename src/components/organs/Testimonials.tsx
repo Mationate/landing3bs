@@ -93,10 +93,10 @@ const Testimonials = () => {
                     </div>
                     {/* Controllers  */}
                     <div className="flex flex-col gap-4 pb-5">
-                        <Button onClick={previous} id="prev" className="cursor-pointer outline-none border-none bg-cyan-600 text-white hover:bg-cyan-500 p-2 rounded-full" type="button">
+                        <Button onClick={previous} id="prev" className="cursor-pointer outline-none border-none bg-color3bs text-white hover:bg-color3bs p-2 rounded-full" type="button">
                             <CaretUp size={18} color="currentColor" weight="fill" />
                         </Button>
-                        <Button onClick={next} id="next" className="cursor-pointer outline-none border-none  bg-cyan-600 text-white hover:bg-cyan-500 p-2 rounded-full" type="button">
+                        <Button onClick={next} id="next" className="cursor-pointer outline-none border-none  bg-color3bs text-white hover:bg-color3bs p-2 rounded-full" type="button">
                             <CaretDown size={18} color="currentColor" weight="fill" />
                         </Button>
                     </div>

@@ -102,10 +102,10 @@ const TopDestination = () => {
 
             {/* Controllers  */}
             <div className="mt-12 w-full flex justify-end gap-5 items-center md:px-6 px-3">
-                <Button onClick={previous} className="cursor-pointer outline-none border-none bg-cyan-600 text-white hover:bg-cyan-500 p-2 rounded-full" type="button">
+                <Button onClick={previous} className="cursor-pointer outline-none border-none bg-color3bs text-white hover:bg-color3bs p-2 rounded-full" type="button">
                     <CaretLeft size={20} color="currentColor" weight="fill" />
                 </Button>
-                <Button onClick={next} className="cursor-pointer outline-none border-none bg-cyan-600 text-white hover:bg-cyan-500 p-2 rounded-full" type="button">
+                <Button onClick={next} className="cursor-pointer outline-none border-none bg-color3bs text-white hover:bg-color3bs p-2 rounded-full" type="button">
                     <CaretRight size={20} color="currentColor" weight="fill" />
                 </Button>
             </div>
@@ -116,7 +116,7 @@ const TopDestination = () => {
                     {
                         TopDestinationTexts.cards.map((card, index) => (
                             <div key={index} className="md:px-6 px-3">
-                                <Card cardClass="overflow-hidden shadow-md rounded-lg cursor-pointer group" imageAlt={card.country} imageSrc={renderCities(index)} imageWrapperClass="w-full h-[250px] overflow-hidden" cover="group-hover:scale-125 transition duration-500 ease" textWrapperClass="flex flex-col gap-4 w-full px-5 py-5">
+                                <Card cardClass="overflow-hidden shadow-md rounded-lg cursor-pointer group" imageAlt={card.country} imageSrc={renderCities(index)} imageWrapperClass="w-full h-[500px] overflow-hidden object-cover" cover="group-hover:scale-125 transition duration-500 ease object-cover" textWrapperClass="flex flex-col gap-4 w-full px-5 py-5">
                                     <div className="flex justify-between items-center">
                                         <Text as="h4" className="text-base font-medium text-white">
                                             {card.country}

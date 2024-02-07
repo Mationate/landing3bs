@@ -37,7 +37,7 @@ const BookingSteps = () => {
                         {
                             BookingStepsTexts.listOfSteps.map((step, index) => (
                                 <List className='flex gap-5 items-center justify-start' key={index}>
-                                    <Text as='p' className={`text-white ${index === 0 ? "bg-cyan-500" : index === 1 ? "bg-cyan-500" : "bg-cyan-500"} p-2 rounded-md`}>
+                                    <Text as='p' className={`text-white ${index === 0 ? "bg-color3bs" : index === 1 ? "bg-color3bs" : "bg-color3bs"} p-2 rounded-md`}>
                                         {renderIcons(index)}
                                     </Text>
                                     <Text as='p' className='text-sm text-white font-light'>
