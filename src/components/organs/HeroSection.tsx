@@ -7,7 +7,6 @@ import { HeroTexts } from "../particles/DataLists"
 import { Button } from "../atoms/Button"
 import { Play } from "@phosphor-icons/react"
 import { Fade, Slide } from "react-awesome-reveal"
-import ReactPlayer from 'react-player'
 import { useState } from "react"
 import { IoCloseOutline } from "react-icons/io5"
 import { BiLoaderAlt } from "react-icons/bi"
@@ -16,7 +15,6 @@ import { BiLoaderAlt } from "react-icons/bi"
 
   
 const HeroSection = () => {
-    const [isOpen, setOpen] = useState(false);
     const [modal, setModal] = useState(false);
     const [videoLoading, setVideoLoading] = useState(true);
     const openModal = () => {
