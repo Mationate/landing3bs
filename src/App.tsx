@@ -5,10 +5,8 @@ import "slick-carousel/slick/slick-theme.css";
 
 import { animateScroll } from "react-scroll";
 
-import NavBar from "./components/organs/NavBar"
-import Home from "./components/pages/Home";
 import { useEffect } from "react";
-import Footer from "./components/organs/Footer";
+import ComingSoon from "./components/pages/ComingSoon";
 
 function App() {
   const directory = useLocation();
@@ -20,11 +18,11 @@ function App() {
 
   return (
     <div className="w-full bg-black text-white font-poppins">
-      <NavBar />
+      {/* <NavBar /> */}
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<ComingSoon />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
