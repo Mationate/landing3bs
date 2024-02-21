@@ -28,9 +28,13 @@ const ComingSoon = () => {
 
     <Image as="a" href="/" className="z-10 h-16 sm:h-16 md:h-24 lg:h-24" image={Logo} alt="Logo" />
     <div className="z-10 text-sm">
-        
-        COMING SOON!
-    </div>
+            <p>
+            Únete a la mejor comunidad de aprendizaje en línea para barberos y entusiastas de la barbería. 
+            </p>
+            <p>
+            ¡Suscríbete para ser el primero en enterarte de nuestro lanzamiento!
+            </p>
+        </div>
     {/* <Countdown/> */}
     
 
