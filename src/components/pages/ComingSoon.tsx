@@ -1,9 +1,9 @@
 import { Image } from "../atoms/Image";
 import Logo from "../../assets/logo-white.svg"
-import Countdown from "../Countdown";
 import { useState } from "react";
 import { IoCloseOutline } from "react-icons/io5";
 import { BiLoaderAlt } from "react-icons/bi";
+import { SubscribeForm } from "../molecules/SubscribeForm";
 
 const ComingSoon = () => {
     const [modal, setModal] = useState(false);
@@ -31,7 +31,8 @@ const ComingSoon = () => {
         
         COMING SOON!
     </div>
-    <Countdown/>
+    {/* <Countdown/> */}
+    
 
     <div className="rounded-md shadow z-10 mt-5">
         <button onClick={openModal}
@@ -70,6 +71,9 @@ const ComingSoon = () => {
                                 </section>
                                 ) : null}
         </button>
+        <div className=" py-6">
+            <SubscribeForm/>    
+        </div>
     </div>
 
 </div>

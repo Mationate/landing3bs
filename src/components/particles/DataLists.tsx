@@ -146,6 +146,7 @@ export const TestimonialTexts = {
 export const NewsletterTexts = {
     firstText: "Únete a nuestra comunidad y sé el primero en recibir noticias exclusivas, contenido emocionante y ofertas irresistibles. ¡No te pierdas nada y sé parte de la revolución en la industria del estilismo!",
     placeholderText: "Tu correo",
+    placeholderName: "Tu nombre",
     buttonText: "Enviar"
 }
 

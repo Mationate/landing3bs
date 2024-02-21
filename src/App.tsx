@@ -17,13 +17,16 @@ function App() {
   }, [directory.pathname]);
 
   return (
+    <>
     <div className="w-full bg-black text-white font-poppins">
       {/* <NavBar /> */}
+   
       <Routes>
         <Route path="/" element={<ComingSoon />} />
       </Routes>
       {/* <Footer /> */}
     </div>
+    </>
   )
 }
 
