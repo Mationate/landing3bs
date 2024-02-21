@@ -14,7 +14,7 @@ export const SubscribeForm = () => {
         const url = 'https://3bslab.us21.list-manage.com/subscribe/post?u=83841838e9ef133644d885676&amp;id=f89eeb58c4&amp;f_id=00aaf2e6f0';
         jsonp(`${url}&FNAME=${name}&EMAIL=${email}`, { param: 'c' }, (_,) => {
         });
-        toast.success('¡Gracias por unirte a 3BSLab!💈✨')
+        toast.success('¡Gracias por unirte a 3BSLab! 💈')
     };
     return (
         <form method='POST' onSubmit={onSubmit} className='flex md:flex-row flex-col items-stretch gap-2'>
